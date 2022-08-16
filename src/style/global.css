@@ -1,0 +1,147 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nabav{
+    background-color: #789eb1;
+  }
+
+
+
+
+.text{
+    text-transform: uppercase;
+    /* width: 400px; */
+    /* background-color: #65588a; */
+    margin-top: 16px;
+    
+    
+}
+
+
+
+
+.a{
+    /* background-color: #65588a; */
+    padding: 16px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.a:hover {
+    color: black;
+    background-color: #ffd0b8;
+    font-weight: 500;
+}
+
+.mr-4{
+    margin-right: 0;
+}
+.nav{
+    background-color: #789eb1;
+    
+}
+
+.size{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.colorcard{
+    background-color: #d9d8f2;
+    position: relative;
+    height: 500px;
+}
+
+.grid-cols-2 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.show{
+    width: 287px;
+    height: 250px;
+    
+}
+
+.card-text{
+    height: 100px;
+    overflow: hidden;
+}
+
+.vitri{
+    float: right;
+}
+
+
+.font-size-search{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+}
+/* .buttonsearch{
+    background-color: #059669;
+    text-transform: uppercase;
+    padding: 0 16px;
+    height: 40px;
+    margin: 16px 0 16px;
+
+
+} */
+.create{
+    background-color: #059669;
+    font-weight: 500;
+}
+.acc{
+    width: 200px;
+    border: 0;
+    padding: 6px 12px;
+    
+}
+
+.slide{
+    
+    position: relative;
+    width: 100%;
+    height: 586px;
+    opacity: 0.2;
+    filter: alpha(opacity=50);
+   float: left;
+}
+
+.slide-part{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+}
+
+.slide-part1{
+    
+    position: absolute;
+    width: 570px;
+    height: 450px;
+    padding: 110px 20px 44px 100px;
+    margin-top: 70px;
+    float: left;
+    text-align: left;
+}
+
+.slide-part1-text{
+    line-height: 1.5;
+    font-size: 20px;
+    
+}
+
+.slide-part2{
+    position: absolute;
+    margin: 80px 0 0 1000px;
+    width: 400px;
+    height: 484px;
+   
+   
+}
+
+.slide-part2 .img{
+    width: 400px;
+    border-radius: 5px;
+}
+
